@@ -15,7 +15,7 @@ import Adafruit_PCA9685
 pwm = Adafruit_PCA9685.PCA9685()
 
 # Set frequency (between 40 and 1000 Hz)
-pwm.set_pwm_freq(250)
+pwm.set_pwm_freq(75)
 
 # Define channels
 speaker = 15
